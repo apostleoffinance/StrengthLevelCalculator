@@ -1,4 +1,22 @@
+
+> **"Error in user YAML: found character that cannot start any token"**
+
+This is happening because you're using **YAML front matter (`---`)** at the top of the file in a `.md` file (probably in a GitHub repo where front matter isn’t needed) **without valid YAML content immediately after it**. YAML expects a key-value pair if you start with `---`.
+
 ---
+
+### ✅ Fix
+
+You can **remove the very first line (`---`)**, since it's not necessary in a regular README file:
+
+```diff
+- ---
+```
+
+### ✅ Cleaned-up Version
+
+Here’s a corrected version of your `README.md`:
+
 ```markdown
 # 🏋️ Strength Level Calculator (Java CLI App)
 
@@ -27,6 +45,7 @@ This is a beginner-friendly Java CLI (Command Line Interface) project that calcu
 
 ---
 
+### 🖥️ Sample Output
 
 ```
 
@@ -74,7 +93,7 @@ Deadlift Strength Level: Advanced
 2. Navigate into the folder:
 
    ```bash
-   cd strength-level-calculator
+   cd StrengthLevelCalculator
    ```
 
 3. Compile and run the program:
@@ -86,7 +105,7 @@ Deadlift Strength Level: Advanced
 
 ---
 
-✅ Future Improvements
+✅ **Future Improvements**
 
 * Add unit tests
 * Save/load user data to a file
@@ -99,4 +118,5 @@ Deadlift Strength Level: Advanced
 
 This project is open-source and free to use under the [MIT License](LICENSE).
 
+```
 ```
