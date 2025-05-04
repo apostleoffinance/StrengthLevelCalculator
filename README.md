@@ -1,13 +1,12 @@
 
-
+## Strength Level Calculator (Java CLI App)
 ```markdown
-# 🏋️ Strength Level Calculator (Java CLI App)
 
 This is a beginner-friendly Java CLI (Command Line Interface) project that calculates and categorizes strength levels based on user inputs such as body weight and personal records (PRs) in Squat, Bench Press, and Deadlift.
 
 ---
 
-## 🔧 Features
+Features
 
 - Collects user input for:
   - Body Weight
@@ -28,7 +27,6 @@ This is a beginner-friendly Java CLI (Command Line Interface) project that calcu
 
 ---
 
-### 🖥️ Sample Output
 
 ```
 
@@ -54,7 +52,7 @@ Deadlift Strength Level: Advanced
 
 ---
 
-## 📚 Concepts Used
+Concepts Used
 
 - Java fundamentals (variables, data types)
 - Scanner class for input handling
@@ -66,7 +64,7 @@ Deadlift Strength Level: Advanced
 
 ---
 
-## 🚀 How to Run
+How to Run
 
 1. Clone the repository:
    ```bash
