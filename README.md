@@ -1,10 +1,3 @@
-
-> **"Error in user YAML: found character that cannot start any token"**
-
-This is happening because you're using **YAML front matter (`---`)** at the top of the file in a `.md` file (probably in a GitHub repo where front matter isn’t needed) **without valid YAML content immediately after it**. YAML expects a key-value pair if you start with `---`.
-
----
-
 ### ✅ Fix
 
 You can **remove the very first line (`---`)**, since it's not necessary in a regular README file:
