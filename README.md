@@ -1,14 +1,4 @@
-### ✅ Fix
 
-You can **remove the very first line (`---`)**, since it's not necessary in a regular README file:
-
-```diff
-- ---
-```
-
-### ✅ Cleaned-up Version
-
-Here’s a corrected version of your `README.md`:
 
 ```markdown
 # 🏋️ Strength Level Calculator (Java CLI App)
