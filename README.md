@@ -1,5 +1,4 @@
 ---
-
 ```markdown
 # 🏋️ Strength Level Calculator (Java CLI App)
 
@@ -87,7 +86,7 @@ Deadlift Strength Level: Advanced
 
 ---
 
-## ✅ Future Improvements
+✅ Future Improvements
 
 * Add unit tests
 * Save/load user data to a file
@@ -96,19 +95,8 @@ Deadlift Strength Level: Advanced
 
 ---
 
-## 📌 Author
-
-* **Your Name** — [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/your-username)
-
----
-
 ## 📝 License
 
 This project is open-source and free to use under the [MIT License](LICENSE).
 
-```
-
----
-
-Let me know if you'd like me to include badges, images, or more personalized details like your name and GitHub username.
 ```
